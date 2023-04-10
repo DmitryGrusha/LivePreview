@@ -1,6 +1,6 @@
 import SwiftUI
 
-@available(iOS 15.0, *)
+@available(iOS 14.0, *)
 public extension UIViewController {
   
   private struct LivePreview: UIViewControllerRepresentable {
@@ -14,7 +14,7 @@ public extension UIViewController {
   }
 }
 
-@available(iOS 15.0, *)
+@available(iOS 14.0, *)
 public extension UIView {
   
   private struct LivePreview: UIViewRepresentable {
@@ -31,7 +31,7 @@ public extension UIView {
 ///Example:
 ///#if DEBUG && canImport(SwiftUI)
 ///import SwiftUI
-///@available(iOS 15.0, *)
+///@available(iOS 14.0, *)
 ///struct ViewController_Preview: PreviewProvider {
 ///  static var previews: some View {
 ///    ViewController()
